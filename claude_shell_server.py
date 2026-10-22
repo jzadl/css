@@ -102,7 +102,7 @@ def _describe(path: str) -> str:
 def review(command: str, cwd: str):
     """Return ('allow'|'block'|'confirm', message_or_list)."""
     if HARD_BLOCK.search(command):
-        return "block", "Comando blocked"
+        return "block", "Command blocked"
     try:
         tokens = _tokens(command)
     except ValueError as e:
