@@ -1,0 +1,5 @@
+.venv/
+config.env
+claude_shell.log
+__pycache__/
+*.py[cod]
